@@ -1,7 +1,6 @@
 html {
     box-sizing: border-box;
     background-color: rgb(231, 231, 231);
-
 }
 
 *,
@@ -10,55 +9,223 @@ html {
     box-sizing: inherit;
 
 }
+
+.PaginaEntera{
+    display: flex;
+    justify-content: stretch;
+    background-color: #F2F2F2;
+    border: 3px solid rgb(151, 151, 151);
+}
+
 .Menu{
     background-color: #F2F2F2;;
     width: 7%;
-    border: 1px solid #000;
+    border: 1px solid rgb(180, 180, 180);
     height: 600px;
 
     display: flex;
     flex-direction: column;
 
     position: fixed;
-    /* justify-content: space-evenly; */
+    justify-content: space-evenly; 
+    align-items: center;
+    border-radius: 24px;
+
+
+}
+
+.Menu-imagen1, .Menu-imagen2, .Menu-imagen3, .Menu-imagen4{
+
+    background-color:#AC0000;
+
+    display: flex;
+    flex-direction: column-reverse;
+
     justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
 
+}
+
+.Menu_container_Seccion{
+
+    background-color: #AC0000;
+    border: 1px solid rgb(32, 161, 144);
+    height: 290px;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 24px;
 
 }
 
-.centro{
-    border: 1px solid rgb(255, 0, 0);
-    position: relative;
-    left: 7%;
-    height: 600PX;
-    width: 85%;
-
-}
 
 .Menu_container{
     
     background-color:#AC0000;
-
-}
-
-.Menu_container{
     display: flex;
     flex-direction: column;
+
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 24px;
+
+}
+
+.derecha{
+    background-color: rgb(217, 219, 214);
+    width: 100%;
 }
 
 
-.lado_der{
-    border: 0.5px solid #000;
+.Navegador{
+    background-color: rgb(243, 241, 241);
+
+    width: 100%;
+    height: 100px;
+
+    display: flex;
+    align-items: center;
+}
+
+.Navegador_Seccion{
     background-color: rgb(219, 219, 219);
-    width: 600px;
+
+    width: 40%;
+    margin-left: 12%;
+    height: 40px;
+
+    display: flex;
+    justify-content: stretch;
+    align-items: center;
+
+    border-radius: 24px;
+}
+
+.NavegadorTexto{
+    color: rgb(168, 168, 168);
+    margin-left: 12%;
+}
+
+.Navegador_icono{
+
+    margin-left: 63%;
+}
+
+.centro{
+    background-color: #F2F2F2;
+    width: 100%;
+    height: 90%;
+
+    display: flex;
+    justify-content: stretch;
+
+}
+
+.ImagenPrincipal{
+
+    background-color: #F2F2F2;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.Montanita{
+    width: 70%;
+    height: 70%;
+}
+
+.lado_der{
+    background-color: rgb(240, 236, 236);
+    width: 70%;
+    height: 100%;
     position: relative;
-    left: 48%;
+    
+    
+}
+
+.Titulo1, .view_text{
+    font-weight: 900;
+}
+
+.Titulo1{
+    background-color: #e8ece8;
+   
+}
+
+.vistas{
+    display: flex;
+     justify-content: left;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.numVistas, .Pin, .compartido{
+    margin-right: 40px;
+}
+
+.lado_der-texto1
+{
+     width: 80%;
+
+     display: flex;
+     flex-direction: column;
+}
+
+.DescriptionPerfil
+{
+    height: 15%;
+    width: 15%;
 }
  
 .Description_Follow{
     width: 90px;
-    color: #776d6d;
+    color: #f1f1f1;
     background-color:#AC0000;
+    height: 15%;   
+   
+    text-align: right;
+    text-align: center;
+    border-radius: 24px;
 
 }
+
+.Photoss{
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 8%;
+}
+
+
+.textodelasminiaturas{
+    display: flex;
+    justify-content: stretch;
+}
+
+.Div_Thumbnailns{
+    justify-content: space-around;
+}
+
+.addphotos{
+    background-color: #AC0000;
+    color: white;
+    width: 150px;
+    height: 27px;
+    text-align: center;
+    border-radius: 24px;
+}
+
+
 
